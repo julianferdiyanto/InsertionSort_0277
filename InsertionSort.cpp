@@ -28,7 +28,7 @@ void input()
     for (int i = 0; i < n; i++) // Menggunakan perulangan for untuk menyimpan data pada array
     {
         cout << "Data ke-" << (i+1) << ":"; // Memasukan atau menginput nilai data n
-        cin >> arr[1]; // Menyimpan nilai data n kedalam array arr
+        cin >> arr[i]; // Menyimpan nilai data n kedalam array arr
     }
 }
 
@@ -41,7 +41,7 @@ void insertionSort()
     for (i = 1; i <= n - 1; i++)
     { // step 1
 
-        temp = arr[1]; // step 2
+        temp = arr[i]; // step 2
 
         j = i - 1; // step 3
 
